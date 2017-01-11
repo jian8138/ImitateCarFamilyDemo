@@ -1,0 +1,65 @@
+//
+//  PrefixHeader.pch
+//  Day11-汽车之家
+//
+//  Created by tarena on 16/11/14.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#pragma mark - 第三方轮子
+#import <YYKit.h>
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <AFNetworking.h>
+#import <MBProgressHUD.h>
+#import <WMPageController.h>
+#import <iCarousel.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <MLTransition.h>
+#import <UITableView+FDTemplateLayoutCell.h>
+#pragma mark - 分类、网络请求
+#import "NSString+RM.h"
+#import "NSObject+parse.h"
+#import "UIView+HUD.h"
+#import "BaseNetManager.h"
+#import "NetManager.h"
+#import "Constant.h"
+#pragma mark - 4个基本控制器
+#import "HomePageViewController.h"
+#import "ForumTableViewController.h"
+#import "SelectTableViewController.h"
+#import "MeTableViewController.h"
+#pragma mark - 首页
+#import "CarCell.h"
+#import "ThreePicCell.h"
+#import "CarNewestTableViewController.h"
+#import "CarNewestModel.h"
+#import "DetailViewController.h"
+#import "SearchTableViewController.h"
+#pragma mark - 论坛
+#import "NSString+URL.h"
+#pragma mark - 选车
+#import "XuanCheDataModel.h"
+#import "XuanCheNetManager.h"
+#import "BrandsDetailModel.h"
+
+#pragma mark - 我
+#import "NSObject+TR.h"
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
